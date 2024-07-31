@@ -17,6 +17,8 @@ load_dotenv()
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
 
+
+
 # UNEMPLOYMENT REPORT FUNCTIONALITY
 
 request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={API_KEY}"
