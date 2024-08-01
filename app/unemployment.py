@@ -13,10 +13,7 @@ from plotly.express import line
 
 # ENVIRONMENT VARIABLE RELATED CODE:
 
-load_dotenv()
-
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
-
+from app.alpha import API_KEY
 
 
 # UNEMPLOYMENT REPORT FUNCTIONALITY
